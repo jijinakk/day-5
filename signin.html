@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html><title>
+    Sign in
+</title>
+    <head>
+       <link rel="stylesheet" href="css\signincss.css"/>
+       <link rel="stylesheet" href="css\header.css"/>
+
+       <style>
+        .error{
+            color: red;
+        }
+       </style>
+       <script src="js\SigninValidation.js"></script>
+
+</head>
+    <body align="center">
+        <div class="header">
+            <div class="">
+                <img style="float:left;width:100px;height:50px;padding-left:10px;"  src="https://cdn.logojoy.com/wp-content/uploads/2018/05/30162618/1533-768x591.png">
+                </div>
+                <div class="nav">
+            <a  href="C:\Users\JIJINA\Desktop\mywebsite\Aboutus.html">About us</a>
+            <a  href="C:\Users\JIJINA\Desktop\mywebsite\signin.html">Sign in</a>
+            <a  href="C:\Users\JIJINA\Desktop\mywebsite\Signup.html">Sign up</a>
+            <a  href="C:\Users\JIJINA\Desktop\mywebsite\Contactus.html">Contact us</a>
+            </div>
+        </div>
+        <h3>Sign in</h3>
+        <form action=""  id="Loginform" method="post" >
+             <div class="container">
+              <div>
+              <label><b>Username</b></label>
+              <input type="text" id="name" placeholder="Enter Username" name="name" class="box"  onfocusout="validateName()" required>
+              </div>
+              
+              <div>
+              <label><b>Password</b></label>
+              <input id="password" onfocusout="validatePassword()"  type="password" placeholder="Enter Password" class="box" name="psw"   required> 
+              </div>
+              <div id="errorContainer" class="error-container"></div>
+
+              <div>
+              <button class="log" id="signin" type="submit">Sign in</button>
+              </div>
+              <div>
+                <span id="errorContainer"></span>
+              </div>
+ 
+          
+            
+              
+              <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+          </form>
+          </body>
+</html>

@@ -1,0 +1,50 @@
+div {padding:10px;}
+        h3{
+            font-size:30px ;
+            color: #0b4106;
+        }
+        
+
+        body {
+             min-height: 100vh;
+               align-items: center;
+            justify-content: center;
+            padding: 20px;
+            background: rgb(246, 245, 248);
+        }
+        .container {
+                 position: relative;
+                 max-width: 500px;
+                 margin-left: 400px;
+                width: 90%;
+                background: #a3f3b1;
+                padding: 20px;
+                border-radius: 5px;
+             box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+        
+        .login{
+        width: 382px;
+        overflow: hidden;
+        margin: auto;
+        margin: 20 0 0 450px;
+        padding: 80px;
+        background: #23463f;
+        border-radius: 15px ;
+        }
+    .box{
+   width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 5px;
+
+    }
+.log{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: blue;
+}
